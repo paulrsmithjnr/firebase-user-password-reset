@@ -97,16 +97,6 @@ python reset_password.py -u USER_UID -c firebase-credentials.json --show-user-in
    python reset_password.py -u "abc123def456" -c "./firebase-key.json" --show-user-info
    ```
 
-## Security Considerations
-
-🔒 **Important Security Notes:**
-
-1. **Credentials Protection**: Never expose your Firebase service account credentials
-2. **Access Control**: Only authorized personnel should have access to this script
-3. **Password Policy**: Consider implementing stronger default passwords
-4. **Audit Trail**: Log password reset activities for security auditing
-5. **Temporary Passwords**: Force users to change passwords on next login
-
 ## Finding User UIDs
 
 To find a user's UID, you can:
